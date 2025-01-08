@@ -562,8 +562,17 @@ video {
   display: none;
 }
 
+.min-h-screen {
+  min-height: 100vh;
+}
+
 .border {
   border-width: 1px;
+}
+
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
 }
 
 .uppercase {
